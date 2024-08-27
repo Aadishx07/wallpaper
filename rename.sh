@@ -4,7 +4,7 @@
 counter=1
 
 # Combine and sort all jpg and png files
-files=$(ls *.jpg *.png | sort)
+files=$(ls *.jpg *.png *.webp | sort)
 
 # Loop through the sorted list of files
 for file in $files; do
